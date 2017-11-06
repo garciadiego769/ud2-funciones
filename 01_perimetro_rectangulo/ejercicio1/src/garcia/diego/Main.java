@@ -7,9 +7,9 @@ import java.io.InputStreamReader;
 public class Main {
 
     public static int perimetrorectangulo(int base, int altura) {
-        int area=base*altura;
+        int perimetro=(base*2)+(altura*2);
 
-        return area;
+        return perimetro;
     }
     public static void main(String[] args) throws IOException {
 	// write your code here
@@ -22,6 +22,6 @@ public class Main {
 
         /* llamamos a la función */
 
-        System.out.println("El area es: " +perimetrorectangulo(a,b));
+        System.out.println("El perimetro es: " +perimetrorectangulo(a,b));
     }
 }
